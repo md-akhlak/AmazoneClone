@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+
+
+.logo {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+    text-decoration: transparent;
+}
+
+
+
+.Amazon {
+
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+.Login {
+    text-align: center;
+}
+
+.box {
+    border: 1.5px solid transparent;
+}
+
+.box :hover {
+    border: 1.5px solid white;
+}
+
+/* ************************************* */
+
+
+
+.email {
+
+    margin-top: 4px;
+    justify-content: space-evenly;
+    text-align: center;
+
+
+}
+
+
+.email input {
+    margin-top: 60px;
+    width: 400px;
+}
+
+.password {
+    text-align: center;
+}
+
+.password input {
+    margin-top: 10px;
+    width: 400px;
+}
+
+.butt {
+    text-align: center;
+
+}
+
+.butt button {
+    background-color: yellow;
+    margin-top: 10px;
+    width: 300px;
+    font-weight: 100px;
+}
+
+/* ******************************************** */
+
+
+
+.foot {
+    margin-top: 20%;
+    text-align: center;
+
+}
+
+.footer1 {
+    margin-top: 100px;
+}
+
+.footer2 {
+    margin-top: 1.2%;
+}

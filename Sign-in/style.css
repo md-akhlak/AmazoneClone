@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  border: border-box;
+}
+
+.navbar {
+  height: 50px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.logo i {
+  background-size: cover;
+  transform: scale(2.5);
+  margin: 16px;
+  color: white;
+}
+
+.border {
+  border: 1.5px solid transparent;
+}
+
+.border:hover {
+  border: 1.5px solid white;
+}
+
+/* amazon location and deliver */
+
+.deliver {
+  color: #cccccc;
+  font-size: 0.88rem;
+  margin-left: 13px;
+}
+
+.location {
+  font-size: 1rem;
+  margin-left: 5px;
+}
+
+.add-icon {
+  display: flex;
+  align-items: center;
+}
+
+/* ************************************************************** */
+
+/* box amazon search bar */
+
+.nav-search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 650px;
+  height: 45px;
+  border-radius: 5px;
+
+}
+
+.nav-search:hover {
+  border: 3px solid orange;
+}
+
+.search-select {
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+
+}
+
+.search-input {
+  width: 100%;
+  font-size: 1rem;
+  border: none;
+
+
+}
+
+.search-icon {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
+}
+
+/* amazon sign-in  */
+
+span {
+  font-size: 0.7rem;
+}
+
+.nav-signin a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-second {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+/* amazon cart */
+.nav-cart i {
+  font-size: 30px;
+}
+
+.nav-cart {
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+
+/* ************************************************************* */
+/* amazon panel */
+
+.panel {
+  height: 50px;
+  background-color: #222f3d;
+  display: flex;
+  color: rgba(255, 255, 255, 0.87);
+  align-items: center;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+.panel-options p {
+  display: inline;
+  margin-left: 15px;
+  color: white;
+
+}
+
+.panel-options {
+  width: 70%;
+  font-size: 0.88rem;
+  list-style: none;
+  text-decoration: none;
+
+}
+
+.panel-options a {
+  text-decoration: none;
+  color: white;
+}
+
+.panel-deals {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.panel-deals a {
+  text-decoration: none;
+  color: white;
+}
+
+/* *********************************************************** */
+/* amazon hero section */
+
+.hero-section {
+  background-image: url("header.jpg ");
+  height: 380px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+}
+
+.hero-messages {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  font-size: 0.88rem;
+  width: 88%;
+  margin-bottom: 20px;
+}
+
+.hero-messages a {
+  color: #007185;
+}
+
+
+/* amazon shop section */
+
+.shop-section {
+
+  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: #e2e7e6;
+  margin-top: 16px;
+
+}
+
+.Shop {
+
+  width: 23%;
+  height: 400px;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 5px;
+}
+
+.per-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+
+button {
+  margin: auto;
+  padding: 2%;
+  width: 50%;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: #FEBD68;
+  background-color: #272121;
+}
+
+
+/* ********************************************** */
+/* Footer */
+
+
+.navFooter {
+  color: #dddddd;
+  background-color: #232f3e;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+
+}
+
+
+.Get_To_Know_us {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-decoration: none;
+
+
+}
+
+.Get_To_Know_us li {
+  list-style: none;
+}
+
+
+.MakeMoney {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+
+.MakeMoney li {
+  list-style: none;
+}
+
+.PaymentsMethod {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  text-decoration: none;
+}
+
+.PaymentsMethod li {
+  list-style: none;
+}
+
+
+.letUsHelp {
+  margin-top: 4%;
+  margin-bottom: 4%;
+
+}
+
+
+.letUsHelp ul {
+  list-style: none;
+
+}
+
+
+.footerLogo {
+
+  text-align: center;
+  margin-top: 10px;
+  color: black;
+  text-decoration: transparent;
+}
+
+
+.footerLogo img {
+  width: 100px;
+}

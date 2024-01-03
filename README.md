@@ -12,7 +12,6 @@ Register For Hacktoberfest 2023 👈 How to Contribute: 👨‍💻INSTRUCTIONS�
 
 Contributions to the project are welcome. Please create an issue or get an issue assigned to yourself first. Fork this Repository using the button at the top on right corner.
 
-Clone this repo to you local Machine git clone https://github.com/your-username/CyberCell-New.git
 
 Carve your own path with a new branch for your modifications and you can also do google search of how to push and open pull requests, this is a learning process (ie. git branch new-user or simply do git checkout -b new-user, Check all branches git branch to see all branches)
 
